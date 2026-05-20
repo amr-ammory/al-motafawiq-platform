@@ -61,7 +61,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663471359221/94RomEZ5oLeneqQyhd79q6/hero-engineering-bJ5PaEAbvN3S3tnJQN8XTC.webp')`,
+            backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663471359221/cxPmkpEjfdIFHquM.webp')`,
           }}
         />
 
