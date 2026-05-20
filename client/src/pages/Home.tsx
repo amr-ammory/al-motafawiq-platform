@@ -56,7 +56,7 @@ export default function Home() {
       </nav>
 
       {/* Full-Screen Hero Section */}
-      <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-screen flex items-end justify-center overflow-hidden pt-20">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -65,11 +65,11 @@ export default function Home() {
           }}
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40" />
+        {/* Overlay - Light at bottom, fading to transparent */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
 
-        {/* Content */}
-        <div className="relative z-10 container text-center text-white px-4">
+        {/* Content - Positioned at bottom */}
+        <div className="relative z-10 container text-center text-white px-4 pb-20">
           <div className="space-y-6 animate-fade-in max-w-3xl mx-auto">
             <div className="space-y-4">
               <h2 className="text-5xl md:text-7xl font-bold leading-tight">
@@ -97,15 +97,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
-          <div className="text-white text-center">
-            <p className="text-sm mb-2">اسحب للأسفل</p>
-            <div className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2">
-              <div className="w-1 h-2 bg-white rounded-full animate-pulse" />
-            </div>
-          </div>
-        </div>
+
       </section>
 
       {/* Blur Divider */}
