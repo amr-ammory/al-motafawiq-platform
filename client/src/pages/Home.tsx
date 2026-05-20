@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, BookOpen, Users, Zap, Award, MessageCircle, Telegram, Github } from "lucide-react";
+import { ArrowRight, BookOpen, Users, Zap, Award, MessageCircle, Send, Lock } from "lucide-react";
 import { useState, useEffect } from "react";
 
 /**
@@ -199,7 +199,7 @@ export default function Home() {
                 desc: "فريق دعم متاح للإجابة على أسئلتك",
               },
               {
-                icon: <Telegram className="w-12 h-12 text-orange-500" />,
+                icon: <Send className="w-12 h-12 text-orange-500" />,
                 title: "محتوى حصري",
                 desc: "فيديوهات وملفات حصرية على قنوات مغلقة",
               },
